@@ -1,0 +1,150 @@
+{
+	"info": {
+		"name": "Code Challenge",
+		"_postman_id": "51fe24a4-2a0e-2593-4a90-bb6676e384e3",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Store List",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "{{hostname}}:{{port}}/list",
+					"host": [
+						"{{hostname}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"list"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Store Get One",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "{{hostname}}:{{port}}/get?mykey=1",
+					"host": [
+						"{{hostname}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"get"
+					],
+					"query": [
+						{
+							"key": "mykey",
+							"value": "1",
+							"equals": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Store Add One",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "{{hostname}}:{{port}}/add?mykey=123&myvalue=new value",
+					"host": [
+						"{{hostname}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"add"
+					],
+					"query": [
+						{
+							"key": "mykey",
+							"value": "123",
+							"equals": true
+						},
+						{
+							"key": "myvalue",
+							"value": "new value",
+							"equals": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Store Delete One",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "{{hostname}}:{{port}}/remove?mykey=1",
+					"host": [
+						"{{hostname}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"remove"
+					],
+					"query": [
+						{
+							"key": "mykey",
+							"value": "1",
+							"equals": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Store Delete All",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "{{hostname}}:{{port}}/clear",
+					"host": [
+						"{{hostname}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"clear"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"id": "397d58c6-0e93-4466-b911-42edf531fdab",
+			"key": "hostname",
+			"value": "localhost",
+			"type": "text"
+		},
+		{
+			"id": "6a661257-73cf-41eb-b134-d06ddd4e6f01",
+			"key": "port",
+			"value": "3000",
+			"type": "text"
+		}
+	]
+}
