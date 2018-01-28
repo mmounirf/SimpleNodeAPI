@@ -1,0 +1,17 @@
+{
+  "name": "simple-node-api",
+  "version": "1.0.0",
+  "description": "A simple challenge to create Node API server",
+  "main": "server.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmounirf/SimpleNodeAPI.git"
+  },
+  "author": "mmounirf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmounirf/SimpleNodeAPI/issues"
+  },
+  "homepage": "https://github.com/mmounirf/SimpleNodeAPI#readme"
+}

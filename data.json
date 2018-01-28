@@ -1,0 +1,31 @@
+[{
+    "mykey": 1,
+    "myvalue": "video/quicktime"
+  }, {
+    "mykey": 2,
+    "myvalue": "audio/x-mpeg-3"
+  }, {
+    "mykey": 3,
+    "myvalue": "application/mspowerpoint"
+  }, {
+    "mykey": 4,
+    "myvalue": "application/x-troff-msvideo"
+  }, {
+    "mykey": 5,
+    "myvalue": "application/powerpoint"
+  }, {
+    "mykey": 6,
+    "myvalue": "application/x-troff-msvideo"
+  }, {
+    "mykey": 7,
+    "myvalue": "application/x-troff-msvideo"
+  }, {
+    "mykey": 8,
+    "myvalue": "audio/mpeg3"
+  }, {
+    "mykey": 9,
+    "myvalue": "application/x-mspowerpoint"
+  }, {
+    "mykey": 10,
+    "myvalue": "video/msvideo"
+  }]
